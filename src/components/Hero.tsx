@@ -58,14 +58,14 @@ const Hero = () => {
             {/* Social Links */}
             <div className="flex justify-center space-x-6 pt-8">
               <a 
-                href="#" 
+                href="https://github.com/sudhanshumall4" 
                 className="p-3 rounded-full glass-card hover:shadow-glow transition-all duration-300 hover:-translate-y-1"
                 aria-label="GitHub"
               >
                 <Github className="w-6 h-6 text-foreground" />
               </a>
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/sudhanshu-mall-558b09246/" 
                 className="p-3 rounded-full glass-card hover:shadow-glow transition-all duration-300 hover:-translate-y-1"
                 aria-label="LinkedIn"
               >
