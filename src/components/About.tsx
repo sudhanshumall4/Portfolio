@@ -30,24 +30,24 @@ const About = () => {
   ];
 
   const technologies = [
-    { name: "React", logo: "/logos/react.svg" },
-    { name: "Node.js", logo: "/logos/nodejs.svg" },
-    { name: "CSS", logo: "/logos/css.svg" },
-    { name: "HTML-5", logo: "/logos/html5.svg" },
-    { name: "Python", logo: "/logos/python.svg" },
-    { name: "PostgreSQL", logo: "/logos/postgresql.svg" },
-    { name: "MongoDB", logo: "/logos/mongodb.svg" },
-    { name: "C/C++", logo: "/logos/cpp.svg" },
-    { name: "Git", logo: "/logos/git.svg" },
-    { name: "Supabase", logo: "/logos/supabase.svg" },
-    { name: "Postman", logo: "/logos/postman.svg" },
-    { name: "Express.js", logo: "/logos/express.svg" },
+    "React",
+    "Node.js",
+    "CSS",
+    "HTML-5",
+    "Python",
+    "PostgreSQL",
+    "MongoDB",
+    "C/C++",
+    "Git",
+    "Supabase",
+    "Postman",
+    "Express.js",
   ];
 
   return (
     <section id="about" className="py-section section-gradient">
       <div className="container mx-auto px-6">
-        {/* Header */}
+        {/* Heading */}
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-display font-bold text-gradient mb-6">
             About Me
@@ -59,9 +59,9 @@ const About = () => {
           </p>
         </div>
 
-        {/* Story + Technologies */}
+        {/* Story + Tech Stack */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-          {/* Text Content */}
+          {/* Story */}
           <div className="animate-slide-up">
             <h3 className="text-2xl font-display font-semibold mb-6">
               My Story
@@ -80,31 +80,26 @@ const About = () => {
             </div>
           </div>
 
-          {/* Technologies with logos */}
+          {/* Tech Stack */}
           <div className="animate-slide-up" style={{ animationDelay: "0.2s" }}>
             <h3 className="text-2xl font-display font-semibold mb-6">
               Technologies I Use
             </h3>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-3">
               {technologies.map((tech, index) => (
-                <div
-                  key={tech.name}
-                  className="flex items-center gap-2 px-4 py-2 glass-card rounded-full text-sm font-medium hover:shadow-glow transition-all duration-300 hover:-translate-y-1"
+                <span
+                  key={tech}
+                  className="px-4 py-2 glass-card rounded-full text-sm font-medium hover:shadow-glow transition-all duration-300 hover:-translate-y-1"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
-                  <img
-                    src={tech.logo}
-                    alt={tech.name}
-                    className="w-6 h-6 object-contain"
-                  />
-                  <span>{tech.name}</span>
-                </div>
+                  {tech}
+                </span>
               ))}
             </div>
           </div>
         </div>
 
-        {/* Skills Grid */}
+        {/* Skills */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {skills.map((skill, index) => (
             <Card
