@@ -10,7 +10,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop&crop=center",
       tags: ["MongoDB", "Express.js", "React", "Node.js", "JWT", "Nodemailer"],
       github: "https://github.com/sudhanshumall4/Intelligent-Finance-Manager",
-      demo: "#",
+       demo:"#",
       type: "Full Stack"
     },
     {
@@ -19,8 +19,8 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&fit=crop&crop=center",
       tags: ["Python", "Flask", "NLP", "scikit-learn"],
       github: "https://github.com/sudhanshumall4/Resume-analyzer",
-      demo: "#",
-      type: "Web App"
+       demo:"#",
+      type: "Full Stack"
     },
     {
       title: "NewsMonkey",
@@ -28,8 +28,17 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1579532536935-619928decd08?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG5ld3NwYXBlcnxlbnwwfHwwfHx8MA%3D%3D",
       tags: ["React", "Bootstrap", "NewsAPI"],
       github: "https://github.com/sudhanshumall4/Newsmonkey",
-      demo: "#",
-      type: "Frontend"
+       demo:"#",
+      type: "Web App"
+    },
+    {
+      title: "Tomato",
+      description: "A responsive React portal for food ordering",
+      image: "https://images.unsplash.com/photo-1628591667015-652ca2f54d4b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGZvb2QlMjBkZWxpZXZlcnl8ZW58MHx8MHx8fDA%3D",
+      tags: ["React", "Bootstrap"],
+      github: "https://github.com/sudhanshumall4/Tomato",
+      demo:"#",
+      type: "Web App"
     }
   ];
 
