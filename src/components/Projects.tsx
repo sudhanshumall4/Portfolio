@@ -23,15 +23,6 @@ const Projects = () => {
       type: "Full Stack"
     },
     {
-      title: "NewsMonkey",
-      description: "A responsive React news portal using NewsAPI with infinite scroll, category filtering, and dark mode support.",
-      image: "https://images.unsplash.com/photo-1579532536935-619928decd08?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG5ld3NwYXBlcnxlbnwwfHwwfHx8MA%3D%3D",
-      tags: ["React", "Bootstrap", "NewsAPI"],
-      github: "https://github.com/sudhanshumall4/Newsmonkey",
-       demo:"#",
-      type: "Web App"
-    },
-    {
       title: "Tomato",
       description: "A responsive React portal for food ordering",
       image: "https://images.unsplash.com/photo-1628591667015-652ca2f54d4b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGZvb2QlMjBkZWxpZXZlcnl8ZW58MHx8MHx8fDA%3D",
