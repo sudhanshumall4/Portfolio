@@ -56,29 +56,56 @@ const Hero = () => {
             </div>
 
             {/* Social Links */}
-            <div className="flex justify-center space-x-6 pt-8">
-              <a 
-                href="https://github.com/sudhanshumall4" 
-                className="p-3 rounded-full glass-card hover:shadow-glow transition-all duration-300 hover:-translate-y-1"
-                aria-label="GitHub"
-              >
-                <Github className="w-6 h-6 text-foreground" />
-              </a>
-              <a 
-                href="https://www.linkedin.com/in/sudhanshu-mall-558b09246/" 
-                className="p-3 rounded-full glass-card hover:shadow-glow transition-all duration-300 hover:-translate-y-1"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="w-6 h-6 text-foreground" />
-              </a>
-              <a 
-                href="#" 
-                className="p-3 rounded-full glass-card hover:shadow-glow transition-all duration-300 hover:-translate-y-1"
-                aria-label="Email"
-              >
-                <Mail className="w-6 h-6 text-foreground" />
-              </a>
-            </div>
+<div className="flex justify-center space-x-6 pt-8">
+  <a 
+    href="https://github.com/sudhanshumall4" 
+    className="p-3 rounded-full glass-card hover:shadow-glow transition-all duration-300 hover:-translate-y-1"
+    aria-label="GitHub"
+  >
+    <Github className="w-6 h-6 text-foreground" />
+  </a>
+
+  <a 
+    href="https://www.linkedin.com/in/sudhanshu-mall-558b09246/" 
+    className="p-3 rounded-full glass-card hover:shadow-glow transition-all duration-300 hover:-translate-y-1"
+    aria-label="LinkedIn"
+  >
+    <Linkedin className="w-6 h-6 text-foreground" />
+  </a>
+
+  <a 
+    href="mailto:your-email@example.com" 
+    className="p-3 rounded-full glass-card hover:shadow-glow transition-all duration-300 hover:-translate-y-1"
+    aria-label="Email"
+  >
+    <Mail className="w-6 h-6 text-foreground" />
+  </a>
+
+  {/* LeetCode Button with Official Logo */}
+  <a 
+    href="https://leetcode.com/u/sudhanshumall4/" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="p-3 rounded-full glass-card hover:shadow-glow transition-all duration-300 hover:-translate-y-1"
+    aria-label="LeetCode"
+  >
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 24" 
+      className="w-6 h-6"
+    >
+      <path 
+        fill="#FFA116" 
+        d="M14.7 2.3a1 1 0 0 0-1.4 0l-8 8a1 1 0 0 0 0 1.4l8 8a1 1 0 1 0 1.4-1.4L7.42 12l7.3-7.3a1 1 0 0 0-1.42-1.4z"
+      />
+      <path 
+        fill="#000000" 
+        d="M19 11h-7a1 1 0 1 0 0 2h7a1 1 0 1 0 0-2z"
+      />
+    </svg>
+  </a>
+</div>
+
           </div>
         </div>
       </div>
