@@ -7,13 +7,13 @@ import { Textarea } from "@/components/ui/textarea";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm("mblajzok"); // 👈 use your Formspree form ID here
+  const [state, handleSubmit] = useForm("xwprvyen"); 
 
   const contactInfo = [
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      details: "sudhanshumall4@gmail.com",
+      details: "sudhanshumall4@zohomail.in",
       link: "mailto:sudhanshumall4@zohomail.in",
     },
     {
